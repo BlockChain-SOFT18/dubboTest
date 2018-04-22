@@ -10,7 +10,8 @@ public class UserServiceConsumer {
 
     public static void main(String args[]) {
         ApplicationContext ctx = new ClassPathXmlApplicationContext("spring.xml");
-        IUserService userService = (IUserService) ctx.getBean("userService");
+
+        IUserService userService =ctx.getBean(IUserService.class);
         logger.info("执行结果：" + userService.login("hello", "hello"));
     }
 }
