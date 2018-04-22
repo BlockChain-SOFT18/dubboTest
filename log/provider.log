@@ -189,3 +189,21 @@ java.net.ConnectException: Connection refused: no further information
  WARN 04-23 00:49:49(AbstractServer.java:197):  [DUBBO] All clients has discontected from /192.168.56.1:28080. You can graceful shutdown now., dubbo version: 2.5.3, current host: 127.0.0.1
  INFO 04-23 00:49:49(AbstractProtocol.java:63):  [DUBBO] Destroy reference: dubbo://192.168.56.1:28080/com.yuyuyzl.dubboTest.IUserService?anyhost=true&application=dubbodemo-consumer&check=false&dubbo=2.5.3&interface=com.yuyuyzl.dubboTest.IUserService&methods=login&pid=6620&side=consumer&timeout=3000&timestamp=1524415788402, dubbo version: 2.5.3, current host: 192.168.56.1
  INFO 04-23 00:49:49(DubboProtocol.java:130):  [DUBBO] disconected from /192.168.56.1:12815,url:dubbo://192.168.56.1:28080/com.yuyuyzl.dubboTest.IUserService?anyhost=true&application=dubbodemo-provider&channel.readonly.sent=true&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=com.yuyuyzl.dubboTest.IUserService&methods=login&pid=28240&side=provider&timeout=3000&timestamp=1524412903211, dubbo version: 2.5.3, current host: 127.0.0.1
+ INFO 04-23 01:27:16(UserServiceImpl.java:15): 用户登录：[username:hello, password:hello]
+ INFO 04-23 01:27:16(UserServiceImpl.java:17): 用户校验通过。[username:hello]
+ INFO 04-23 01:27:16(UserServiceImpl.java:15): 用户登录：[username:hello, password:hello]
+ INFO 04-23 01:27:16(UserServiceImpl.java:17): 用户校验通过。[username:hello]
+ INFO 04-23 01:27:16(UserServiceImpl.java:15): 用户登录：[username:hello, password:hello]
+ INFO 04-23 01:27:16(UserServiceImpl.java:17): 用户校验通过。[username:hello]
+ INFO 04-23 01:27:16(UserServiceImpl.java:15): 用户登录：[username:hello, password:hello]
+ INFO 04-23 01:27:16(UserServiceImpl.java:17): 用户校验通过。[username:hello]
+ WARN 04-23 01:29:59(AbstractServer.java:197):  [DUBBO] All clients has discontected from /192.168.56.1:28080. You can graceful shutdown now., dubbo version: 2.5.3, current host: 127.0.0.1
+ INFO 04-23 01:29:59(DubboProtocol.java:130):  [DUBBO] disconected from /192.168.56.1:16069,url:dubbo://192.168.56.1:28080/com.yuyuyzl.dubboTest.IUserService?anyhost=true&application=dubbodemo-provider&channel.readonly.sent=true&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=com.yuyuyzl.dubboTest.IUserService&methods=login&pid=28240&side=provider&timeout=3000&timestamp=1524412903211, dubbo version: 2.5.3, current host: 127.0.0.1
+ INFO 04-23 01:37:26(UserServiceImpl.java:15): 用户登录：[username:hello, password:hello]
+ INFO 04-23 01:37:26(UserServiceImpl.java:17): 用户校验通过。[username:hello]
+ INFO 04-23 01:37:26(UserServiceImpl.java:15): 用户登录：[username:hello, password:hello]
+ INFO 04-23 01:37:26(UserServiceImpl.java:17): 用户校验通过。[username:hello]
+ INFO 04-23 01:37:26(UserServiceImpl.java:15): 用户登录：[username:hello, password:hello]
+ INFO 04-23 01:37:26(UserServiceImpl.java:17): 用户校验通过。[username:hello]
+ INFO 04-23 01:37:27(UserServiceImpl.java:15): 用户登录：[username:hello, password:hello]
+ INFO 04-23 01:37:27(UserServiceImpl.java:17): 用户校验通过。[username:hello]

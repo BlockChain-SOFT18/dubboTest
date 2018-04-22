@@ -9,6 +9,6 @@ public class staticTest {
     public static IUserService userService;
     public static void init(){
         ApplicationContext ctx = new ClassPathXmlApplicationContext("spring.xml");
-        userService = (IUserService) ctx.getBean("userService");
+        userService = ctx.getBean(IUserService.class);
     }
 }
