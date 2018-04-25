@@ -4,6 +4,7 @@ import java.io.Serializable;
 import java.util.List;
 import java.util.Map;
 
+
 public class MyReturnClass implements Serializable{
     public List<Map<String, String>> getLm() {
         return lm;
